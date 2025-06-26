@@ -38,22 +38,26 @@ API реализовано на Flask с поддержкой CORS и хране
 
 1. Клонируйте репозиторий:
 
-git clone https://github.com/hamsterofyoursdreams/examGabdrakhmanovSHA-02
-cd examGabdrakhmanovSHA-02
+   > git clone https://github.com/hamsterofyoursdreams/examGabdrakhmanovSHA-02
+   
+   > cd examGabdrakhmanovSHA-02
+
 
 2. Создайте и активируйте виртуальное окружение (рекомендуется):
 
-python -m venv venv
-source venv/bin/activate # Linux/macOS
-venv\Scripts\activate # Windows
+   > python -m venv venv
+
+   > source venv/bin/activate # Linux/macOS
+
+   > venv\Scripts\activate # Windows
 
 3. Установите зависимости:
 
-pip install -r requirements.txt
+   > pip install -r requirements.txt
 
 4. Запустите API:
 
-python app.py
+   > python app.py
 
 По умолчанию сервер будет доступен по адресу: `http://0.0.0.0:5000`
 
@@ -117,11 +121,13 @@ python app.py
 Для запуска тестов используется `pytest`.  
 Установите pytest, если он не установлен (pytest прописан в requirements.txt):
 
-pip install pytest
+   > pip install pytest
 
 Запуск тестов:
 
-pytest test_app.py -v
+   > pytest test_app.py -v
+ 
+   > pytest test_app.py
 
 ---
 
