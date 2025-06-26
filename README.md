@@ -38,18 +38,18 @@ API реализовано на Flask с поддержкой CORS и хране
 
 1. Клонируйте репозиторий:
    ```bash
-   > git clone https://github.com/hamsterofyoursdreams/examGabdrakhmanovSHA-02
+   git clone https://github.com/hamsterofyoursdreams/examGabdrakhmanovSHA-02
    ```
    ```bash
-   > cd examGabdrakhmanovSHA-02
+   cd examGabdrakhmanovSHA-02
    ```
 
 2. Создайте и активируйте виртуальное окружение (рекомендуется):
    ```bash
-   > python -m venv venv
+   python -m venv venv
    ```
    ```bash
-   > source venv/bin/activate # Linux/macOS
+   source venv/bin/activate # Linux/macOS
    ```
    ```bash
    venv\Scripts\activate # Windows
